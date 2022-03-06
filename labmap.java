@@ -9,7 +9,7 @@ class lbmap {
         lb.put("b ", new Integer(20));
         
         for (Map.Entry<String, Integer> me : lb.entrySet()) {
-            System.out.print(me.getKey() + ":" + me.getValue());
+            System.out.print(me.getKey() + ":" + me.getValue()+" ");
         }
     }
 }
